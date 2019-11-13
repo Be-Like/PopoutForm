@@ -57,6 +57,8 @@ A form will need a name. If there is no name, the form will fail to save.
 
 A form will need an event_id.  If there is no event_id, the form will fail to save. The event_id must also match an event in the database.
 
+`/info_forms` is already a route in the system that is setup to accept info form submissions.
+
 ### Additional info
 There are no additional requirements beyond Expectation 1 and Expectation 2.  The task is a semi-open ended so you can choose things like styles and structure.
 
