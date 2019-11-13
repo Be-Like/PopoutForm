@@ -1,24 +1,25 @@
-# README
+Setup on Computer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Make sure Ruby 2.6.4 is installed on your computer
+2. Make sure postgresql is installed on your computer
+3. Make sure yarn is installed on your computer
 
-Things you may want to cover:
 
-* Ruby version
+```
+gem install bundler
+bundle install
+yarn install
+rails db:create db:setup db:seed
+```
 
-* System dependencies
+Setup using Docker
 
-* Configuration
+If don't want to install a bunch of software on your computer, you can also develop using Docker
 
-* Database creation
+1. Make sure Docker for Desktop is installed on your computer
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+docker-compose build
+docker-compose run --rm web rails db:create db:migrate db:seed
+docker-compose up
+```
