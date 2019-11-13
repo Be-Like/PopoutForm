@@ -1,4 +1,4 @@
-class InfoFormsController < ApplicationController
+class InfoFormsController < ActionController::API
   def create
     info_form = InfoForm.create(info_form_params)
     errors = info_form.errors.full_messages
