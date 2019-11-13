@@ -5,5 +5,7 @@ class CreateEvents < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
+
+    add_index :events, :name, unique: true
   end
 end

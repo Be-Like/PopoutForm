@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2019_11_13_153121) do
     t.text "name", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["name"], name: "index_events_on_name", unique: true
   end
 
 end
