@@ -10,6 +10,24 @@
 
 <script>
 export default {
+  data() {
+    return {
+      events: [],
+      name: null
+    }
+  },
+
+  methods: {
+    getEvents() {
+      // update the data `events` value to be an array of events on the site.
+      // Use path '/events.json'
+      // Create a fetch call that gets all events.
+    },
+
+    submitForm() {
+
+    }
+  }
 }
 </script>
 

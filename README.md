@@ -23,3 +23,8 @@ docker-compose build
 docker-compose run --rm web rails db:create db:migrate db:seed
 docker-compose up
 ```
+
+Tasks:
+1. There is a path '/events.json' that will query all events and respond with JSON array. Right now, it's broken. You can run `rails test` OR `docker-compose run --rm web rails test` to see the JSON is returning an empty array.  This will need to be fixed in order to continue with the additional tasks.
+
+2. 
