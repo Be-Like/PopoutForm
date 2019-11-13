@@ -4,7 +4,9 @@
 2. Make sure postgresql is installed on your computer
 3. Make sure yarn is installed on your computer
 
-4. Run the following commands to install the app
+4. Clone this repo on your local computer
+
+5. Run the following commands to install the app
 ```
 gem install bundler
 bundle install
@@ -12,9 +14,8 @@ yarn install
 rails db:create db:setup db:seed
 ```
 
-4. Visit the site on http://localhost:3000
+6. Visit the site on http://localhost:3000
 
-5. Create a new branch. Complete the tasks below and push your branch to GitLab
 
 # Setup using Docker
 
@@ -22,7 +23,9 @@ If you don't want to install a bunch of software on your computer, you can also 
 
 1. Make sure Docker for Desktop is installed on your computer
 
-2. Run the following commands to install the app
+2. Clone this repo on your local computer
+
+3. Run the following commands to install the app
 
 ```
 docker-compose build
@@ -30,9 +33,7 @@ docker-compose run --rm web rails db:create db:migrate db:seed
 docker-compose up
 ```
 
-3. Visit the site on http://localhost:3000
-
-4. Create a new branch. Complete the tasks below and push your branch to GitLab
+4. Visit the site on http://localhost:3000
 
 
 # Tasks:
@@ -59,3 +60,10 @@ A form will need an event_id.  If there is no event_id, the form will fail to sa
 
 ### Additional info
 There are no additional requirements beyond Expectation 1 and Expectation 2.  The task is a semi-open ended so you can choose things like styles and structure.
+
+# Submission:
+Create a new branch.
+
+Complete the tasks listed and push your branch to GitLab.  
+
+When you are finished making changes, create a merge request. 
