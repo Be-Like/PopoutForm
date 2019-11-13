@@ -1,0 +1,7 @@
+one:
+  name: Person One
+  event: one
+
+two:
+  name: Person Two
+  event: two
