@@ -14,7 +14,7 @@ yarn install
 rails db:create db:setup db:seed
 ```
 
-6. Visit the site on http://localhost:3000
+6. Run `rails s` and visit the site on http://localhost:3000
 
 
 # Setup using Docker
@@ -30,10 +30,9 @@ If you don't want to install a bunch of software on your computer, you can also 
 ```
 docker-compose build
 docker-compose run --rm web rails db:create db:migrate db:seed
-docker-compose up
 ```
 
-4. Visit the site on http://localhost:3000
+4. Run `docker-compose up` and visit the site on http://localhost:3000
 
 
 # Tasks:
@@ -66,4 +65,4 @@ Create a new branch.
 
 Complete the tasks listed and push your branch to GitLab.  
 
-When you are finished making changes, create a merge request. 
+When you are finished making changes, create a merge request.
