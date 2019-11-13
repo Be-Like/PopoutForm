@@ -1,22 +1,17 @@
 <template>
-  <div id="app">
-    <p>{{ message }}</p>
+  <div id="infoForm">
+    <button>Click here to display info form!</button>
+
+    <div>
+      Info Form Goes Here!
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
-    }
-  }
 }
 </script>
 
 <style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
 </style>
