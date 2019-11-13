@@ -15,27 +15,17 @@
 export default {
   computed: {
     paramsBody() {
-      return JSON.stringify({
-        info_form: {
-          // info form fields need to be added here
-        }
-      })
-    }
-  },
-
-  data() {
-    return {
-      eventId: null,
-      events: [],
-      name: null
+      return JSON.stringify({ info_form: {
+        // info form fields need to be added here
+      } })
     }
   },
 
   methods: {
     getEvents() {
-      // update the data `events` value to be an array of events on the site.
       // Use path '/events.json'
       // Create a fetch call that gets all events.
+      // Use events to diplay in form
     },
 
     submitForm() {
