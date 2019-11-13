@@ -4,7 +4,7 @@ Setup on Computer
 2. Make sure postgresql is installed on your computer
 3. Make sure yarn is installed on your computer
 
-
+4. Run the following commands to install the app
 ```
 gem install bundler
 bundle install
@@ -18,13 +18,17 @@ If don't want to install a bunch of software on your computer, you can also deve
 
 1. Make sure Docker for Desktop is installed on your computer
 
+2. Run the following commands to install the app
+
 ```
 docker-compose build
 docker-compose run --rm web rails db:create db:migrate db:seed
 docker-compose up
 ```
 
+3. Create a new branch. Complete the tasks below and push your branch to GitLab
+
 Tasks:
 1. There is a path '/events.json' that will query all events and respond with JSON array. Right now, it's broken. You can run `rails test` OR `docker-compose run --rm web rails test` to see the JSON is returning an empty array.  This will need to be fixed in order to continue with the additional tasks.
 
-2. 
+2.
