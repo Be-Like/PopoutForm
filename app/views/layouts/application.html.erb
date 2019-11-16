@@ -11,13 +11,19 @@
 
   <body>
     <header>
-      Header!
-      
+      <div class="header">
+        Header!
+      </div>
     </header>
     
+    <div class="container">
+      <%= yield %>    
+    </div>    
 
-    <%= yield %>
-
-    <footer>Footer!</footer>
+    <footer>
+      <div class="footer">
+        Footer!
+      </div>
+    </footer>
   </body>
 </html>
